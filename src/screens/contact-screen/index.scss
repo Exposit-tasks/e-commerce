@@ -1,0 +1,48 @@
+@import "../../styles/common";
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.4;
+  padding: 4rem;
+
+  &__title{
+    font-size:3.6rem;
+    font-weight: 300;
+    color: get-color($text, 700);
+    padding-bottom: 4rem;
+  }
+
+  h3{
+    font-size:2.6rem;
+    color: get-color($info,400);
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-bottom: 1rem;
+  }
+  &__address{
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 0.085rem;
+    padding-bottom: 3rem;
+  }
+  &__info{
+    font-size: 1.8rem;
+    color: get-color($text, 800);
+    letter-spacing: 0.085rem;
+  }
+
+  &__phone{
+    color: get-color($info,400);
+  }
+
+  &__mail{
+    font-weight: 300;
+    font-size: 1.8rem;
+    color: get-color($info,400);
+    letter-spacing: 0.085rem;
+  }
+}

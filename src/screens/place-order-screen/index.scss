@@ -1,0 +1,8 @@
+@import "src/styles/common";
+
+.place-order-screen {
+  display: grid;
+  gap: 0 2rem;
+  grid-template-columns: 2fr 1fr;
+  @include tablet{grid-template-columns: 1fr;}
+}

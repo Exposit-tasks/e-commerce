@@ -1,0 +1,24 @@
+@import "src/styles/common";
+
+.message-box {
+  @include flex(center, center);
+  @extend %absolute-center;
+  @extend %article-bg;
+  flex-direction: column;
+  color: get-color($text, 700);
+  padding: 6rem 4rem;
+  transition: 1s;
+
+  &:hover {
+    color: get-color($primary, 700);
+  }
+
+  &__img {
+    font-size: 10rem;
+  }
+
+  &__text {
+    @extend %h2;
+    padding: 2rem 0;
+  }
+}

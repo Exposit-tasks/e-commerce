@@ -1,0 +1,29 @@
+@import "src/styles/common";
+
+.cart-orders {
+  position: sticky;
+  top: 1rem;
+  min-height: 14rem;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: $box-shadow;
+  font-size: 1.8rem;
+
+  ul{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__title{
+    font-size: 1.4rem;
+  }
+
+  &__price{
+    color: get-color($primary,700);
+    font-weight: 700;
+  }
+}

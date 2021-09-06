@@ -1,0 +1,19 @@
+@import "src/styles/common";
+
+.rating{
+  padding: .4rem 0;
+
+  .fa{
+    font-size: 1.4rem;
+  }
+
+  .num-reviews{
+    font-size: 1rem;
+    color: get-color($text, 700);
+  }
+}
+
+.rating span {
+  color: get-color($primary,700);
+  margin: 0.1rem;
+}

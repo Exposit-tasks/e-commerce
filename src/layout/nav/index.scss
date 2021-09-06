@@ -1,0 +1,27 @@
+@import "../../styles/common";
+
+nav{
+  display: flex;
+  flex-direction: row;
+  .menu{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    .menu__item {
+      padding-left: 1rem;
+      font-size: 1.6rem;
+      text-transform: capitalize;
+      &:last-child{
+        font-size: 3rem;
+        padding-left: 3rem;
+        a:hover{
+          color: #ff3939;
+          border-bottom: none;
+        }
+      }
+    }
+  }
+  a:hover{
+    border-bottom: 1px solid white;
+  }
+}

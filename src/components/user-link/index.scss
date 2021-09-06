@@ -1,0 +1,30 @@
+@import "./src/styles/common";
+
+.menu-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: get-color($text, 500);
+
+  &:hover{
+    color: $white;
+  }
+
+  &__container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .6rem;
+    margin-bottom: .2rem;
+    opacity: .8;
+
+    .fa-user{
+      font-size: 2rem;
+    }
+  }
+
+  &__title{
+    font-size: 1.2rem;
+  }
+}

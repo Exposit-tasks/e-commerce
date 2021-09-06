@@ -1,0 +1,266 @@
+{
+  "users": [
+    {
+      "id": "8819e2fa-57bb-40f8-9c49-c69cfa5bd3ad",
+      "username": "dddf",
+      "email": "dddf",
+      "hashedPassword": "ZGRkZg=="
+    }
+  ],
+  "orders": [
+    {
+      "userId": "8819e2fa-57bb-40f8-9c49-c69cfa5bd3ad",
+      "orderDate": "4/9/2021",
+      "deliveryDate": "6/9/2021 - 8/9/2021",
+      "cartItems": [
+        {
+          "title": "products.2.title",
+          "image": "https://images.wbstatic.net/big/new/13660000/13669670-1.jpg",
+          "price": 18.2,
+          "countInStock": 20,
+          "product": "2",
+          "qty": 1
+        }
+      ],
+      "orderData": {
+        "fullName": "Кыргыз Киоске",
+        "phone": "s",
+        "city": "Гродно",
+        "house": "БЛК, 9-82",
+        "payment": "cash"
+      },
+      "itemsPrice": 18.2,
+      "orderItems": [
+        {
+          "title": "products.2.title",
+          "image": "https://images.wbstatic.net/big/new/13660000/13669670-1.jpg",
+          "price": 18.2,
+          "countInStock": 20,
+          "product": "2",
+          "qty": 1
+        }
+      ],
+      "id": "458a2521-eb59-4787-9a50-91f28aa52900"
+    },
+    {
+      "userId": "8819e2fa-57bb-40f8-9c49-c69cfa5bd3ad",
+      "orderDate": "4/9/2021",
+      "deliveryDate": "6/9/2021 - 8/9/2021",
+      "cartItems": [
+        {
+          "title": "products.4.title",
+          "image": "https://images.wbstatic.net/big/new/13660000/13669683-1.jpg",
+          "price": 25.9,
+          "countInStock": 20,
+          "product": "4",
+          "qty": 1
+        }
+      ],
+      "orderData": {
+        "fullName": "Кыргыз Киоске",
+        "phone": "sq",
+        "city": "Гродно",
+        "house": "БЛК, 9-82",
+        "payment": "cash"
+      },
+      "itemsPrice": 25.9,
+      "orderItems": [
+        {
+          "title": "products.4.title",
+          "image": "https://images.wbstatic.net/big/new/13660000/13669683-1.jpg",
+          "price": 25.9,
+          "countInStock": 20,
+          "product": "4",
+          "qty": 1
+        }
+      ],
+      "id": "5342651e-2bfe-40db-a176-03d775db8346"
+    },
+    {
+      "userId": "8819e2fa-57bb-40f8-9c49-c69cfa5bd3ad",
+      "orderDate": "5/9/2021",
+      "deliveryDate": "7/9/2021 - 9/9/2021",
+      "cartItems": [
+        {
+          "title": "products.2.title",
+          "image": "https://images.wbstatic.net/big/new/13660000/13669670-1.jpg",
+          "price": 18.2,
+          "countInStock": 20,
+          "product": "2",
+          "qty": 1
+        },
+        {
+          "title": "products.3.title",
+          "image": "https://images.wbstatic.net/big/new/13660000/13669683-1.jpg",
+          "price": 14.9,
+          "countInStock": 20,
+          "product": "3",
+          "qty": 1
+        }
+      ],
+      "orderData": {
+        "fullName": "Кыргыз Киоске",
+        "phone": "1111",
+        "city": "Гродно",
+        "house": "БЛК, 9-82",
+        "payment": "cash"
+      },
+      "itemsPrice": 33.1,
+      "orderItems": [
+        {
+          "title": "products.2.title",
+          "image": "https://images.wbstatic.net/big/new/13660000/13669670-1.jpg",
+          "price": 18.2,
+          "countInStock": 20,
+          "product": "2",
+          "qty": 1
+        },
+        {
+          "title": "products.3.title",
+          "image": "https://images.wbstatic.net/big/new/13660000/13669683-1.jpg",
+          "price": 14.9,
+          "countInStock": 20,
+          "product": "3",
+          "qty": 1
+        }
+      ],
+      "id": "c40b4327-a92e-4921-9c6b-b85308aeacf9"
+    },
+    {
+      "userId": "8819e2fa-57bb-40f8-9c49-c69cfa5bd3ad",
+      "orderDate": "6/9/2021",
+      "deliveryDate": "8/9/2021 - 10/9/2021",
+      "cartItems": [
+        {
+          "title": "products.4.title",
+          "image": "https://images.wbstatic.net/big/new/13660000/13669683-1.jpg",
+          "price": 25.9,
+          "countInStock": 20,
+          "product": "4",
+          "qty": 1
+        }
+      ],
+      "orderData": {
+        "fullName": "Кыргыз Киоске",
+        "phone": "d",
+        "city": "Гродно",
+        "house": "БЛК, 9-82",
+        "payment": "cash"
+      },
+      "itemsPrice": 25.9,
+      "orderItems": [
+        {
+          "title": "products.4.title",
+          "image": "https://images.wbstatic.net/big/new/13660000/13669683-1.jpg",
+          "price": 25.9,
+          "countInStock": 20,
+          "product": "4",
+          "qty": 1
+        }
+      ],
+      "id": "4eaa37b9-a680-47ed-8f61-dfa960823149"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "category": "dress",
+      "brand": "bershka",
+      "image": "https://images.wbstatic.net/big/new/13660000/13669670-1.jpg",
+      "title": "products.1.title",
+      "description": "products.1.description",
+      "availableSizes": [
+        "X",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "rating": 5,
+      "numReviews": 12,
+      "countInStock": 12,
+      "price": 42.9
+    },
+    {
+      "id": "2",
+      "category": "dress",
+      "brand": "bershka",
+      "image": "https://images.wbstatic.net/big/new/13660000/13669670-1.jpg",
+      "title": "products.2.title",
+      "description": "products.2.description",
+      "availableSizes": [
+        "X",
+        "M",
+        "L"
+      ],
+      "rating": 4,
+      "numReviews": 12,
+      "countInStock": 20,
+      "price": 18.2
+    },
+    {
+      "id": "3",
+      "category": "pants",
+      "brand": "bershka",
+      "image": "https://images.wbstatic.net/big/new/13660000/13669683-1.jpg",
+      "title": "products.3.title",
+      "description": "products.3.description",
+      "availableSizes": [
+        "X",
+        "M",
+        "L"
+      ],
+      "rating": 4.5,
+      "numReviews": 12,
+      "countInStock": 20,
+      "price": 14.9
+    },
+    {
+      "id": "4",
+      "category": "pants",
+      "brand": "bershka",
+      "image": "https://images.wbstatic.net/big/new/13660000/13669683-1.jpg",
+      "title": "products.4.title",
+      "description": "products.4.description",
+      "availableSizes": [
+        "XL"
+      ],
+      "rating": 4.5,
+      "numReviews": 12,
+      "countInStock": 20,
+      "price": 25.9
+    },
+    {
+      "id": "5",
+      "category": "pants",
+      "brand": "bershka",
+      "image": "https://images.wbstatic.net/big/new/13660000/13669683-1.jpg",
+      "title": "products.5.title",
+      "description": "products.5.description",
+      "availableSizes": [
+        "X",
+        "L",
+        "XL"
+      ],
+      "rating": 4,
+      "numReviews": 50,
+      "countInStock": 20,
+      "price": 10.9
+    },
+    {
+      "id": "6",
+      "category": "pants",
+      "brand": "bershka",
+      "image": "https://images.wbstatic.net/big/new/13660000/13669683-1.jpg",
+      "title": "products.6.title",
+      "description": "products.6.description",
+      "availableSizes": [
+        "XL",
+        "XXL"
+      ],
+      "rating": 4.5,
+      "numReviews": 10,
+      "countInStock": 20,
+      "price": 49.1
+    }
+  ]
+}

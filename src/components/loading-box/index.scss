@@ -1,0 +1,10 @@
+@import './src/styles/common';
+
+.loading-container {
+  @extend %absolute-center;
+
+  .loading{
+    font-size: 6rem;
+    color: get-color($primary,700);
+  }
+}

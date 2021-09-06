@@ -1,0 +1,33 @@
+@import "src/styles/common";
+
+.language{
+  position: relative;
+  display: flex;
+
+  label{
+    padding-right: .6rem;
+  }
+
+  select {
+    outline: none;
+    padding: .6rem .2rem;
+    border: 1px solid get-color($info, 200);
+    border-radius: .2em;
+    cursor: pointer;
+    background: none;
+    color: $white;
+    position: relative;
+
+    option{
+      background: none;
+      color: white;
+      outline: none;
+      background: get-color($bg, 700);
+    }
+  }
+
+  &__icon{
+    font-size: 3rem;
+    color: get-color($info, 200);
+  }
+}

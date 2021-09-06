@@ -1,0 +1,28 @@
+@import 'src/styles/common.scss';
+
+.form-input {
+  @include flex(center, baseline);
+  flex-direction: column;
+  padding-bottom: 1.8rem;
+
+  &__label {
+    font-size: 1.4rem;
+    padding: 0 .2rem;
+  }
+
+  &__input {
+    margin: .4rem 0;
+    font-size: 1.4rem;
+    padding: .2rem;
+    line-height: 1.4rem;
+    border: none;
+    border-bottom: .1rem solid get-color($primary, 300);
+    outline: none;
+    width: 18rem;
+    transition: .4s;
+
+    &:focus {
+      border-bottom: .1rem solid get-color($primary, 700);
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import "src/styles/common";
+
+.about-screen {
+  @extend %absolute-center;
+
+  .about-welcome{
+    color: $white;
+    box-shadow: $box-shadow;
+    background: linear-gradient(127.54deg, get-color($primary, 400), get-color($primary, 700) 101.25%);
+    border-radius: 2rem;
+    padding: 10rem;
+
+    &__title{
+      @extend %h1;
+      text-align: center;
+      padding-bottom: 3rem;
+    }
+
+    &__descriptions{
+      @extend %h3;
+      text-align: center;
+      padding-bottom: 3rem;
+    }
+  }
+}

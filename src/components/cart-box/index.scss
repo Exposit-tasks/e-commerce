@@ -1,0 +1,56 @@
+@import "src/styles/common";
+
+.cart-box{
+  display: flex;
+  position: sticky;
+  top: 0;
+  font-size: 1.8rem;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 24rem;
+  min-width: 30rem;
+  box-shadow: -1px 0px 8px 1px rgba(34, 60, 80, 0.2);
+  border-radius: 1.6rem;
+  padding: 3rem 2rem;
+
+  &__price{
+    @extend %h1;
+    color: get-color($primary,700);
+    font-weight: 700;
+    line-height: 2.8rem;
+  }
+
+  &__delivery{
+    color: get-color($text,500);
+  }
+
+  &__date{
+    color: $black;
+  }
+
+  &__stock{
+    &_success{
+      color: get-color($success,500);
+    }
+
+    &_danger{
+      color: get-color($error,500);
+    }
+  }
+
+  &__quantity{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+
+    select{
+      font-size: 1.8rem;
+      background: transparent;
+      color: $black;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+.app.dark{
+background: get-color($bg, 800);
+}
+
+.dark {
+  transition: .5s;
+
+  main {
+    background: get-color($bg, 700);
+    transition: .5s;
+  }
+
+  .common-button{
+    background-color: get-color($success, 600);
+    border-color: get-color($success, 600);
+
+    &:hover{
+      background-color: get-color($success, 800);
+    }
+  }
+
+  .back-link{
+    background: transparent;
+  }
+
+  .cart-product__delete-cross {
+    background: get-color($bg, 700);
+    color: get-color($text, 400);
+  }
+
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border-radius: 2rem;
+    padding: 1rem;
+    box-shadow: $box-shadow-dark;
+
+    &:hover {
+      color: get-color($primary, 700);
+    }
+
+    a {
+      color: $white;
+
+      &:hover{
+        color: get-color($primary, 700);
+      }
+    }
+
+    &__price {
+
+      div {
+        color: $white;
+      }
+    }
+  }
+
+  .product-screen {
+
+    .product-title{
+      color: $white;
+    }
+
+    .product-description{
+      box-shadow: $box-shadow-dark;
+      color: $white;
+    }
+
+    .cart-box{
+      box-shadow: $box-shadow-dark;
+
+      &__date{
+        color: $white;
+      }
+
+      &__quantity{
+        color: $white;
+
+        select{
+          color: $white;
+        }
+
+        option{
+          background: get-color($bg, 500);
+        }
+      }
+    }
+
+  }
+  .cart-orders {
+    box-shadow: $box-shadow-dark;
+    color: $white;
+  }
+
+  .order-history-table {
+    th {
+      color: $white;
+    }
+
+    td {
+      color: get-color($text, 500);
+    }
+  }
+  .profile-not-registered {
+    p {
+      color: $white;
+    }
+  }
+}

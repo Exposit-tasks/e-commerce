@@ -1,0 +1,58 @@
+@import "src/styles/common";
+
+.base-container {
+  display: flex;
+  flex-direction: column;
+
+  .auth-error{
+    @extend %h3;
+    color: get-color($error, 500);
+    margin-top: -.6rem;
+    padding-bottom: 1rem;
+  }
+
+  .header {
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    .form {
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        label {
+          font-size: 2rem;
+        }
+        input {
+          margin-top: 6px;
+          height: 3rem;
+          padding: 0px 10px;
+          font-size: 16px;
+          font-family: "Open Sans", sans-serif;
+          background-color: #f3f3f3;
+          border: 0;
+          border-radius: 4px;
+          margin-bottom: 2rem;
+          &:hover {
+            background-color: $white;
+            box-shadow: 0px 0px 14px 0.3px get-color($info,400);
+            cursor: pointer;
+          }
+
+          &:focus {
+            outline: none;
+            box-shadow: 0px 0px 12px 0.8px get-color($info,500);
+          }
+        }
+      }
+    }
+  }
+
+}

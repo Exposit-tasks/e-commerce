@@ -1,0 +1,65 @@
+@import "../../styles/common";
+
+.productList{
+  flex: 3 60rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 4rem 2.6rem;
+  transition: all 1s ease-in-out;
+  @include tablet{grid-template-columns: repeat(3,1fr)}
+  @include mobile{grid-template-columns: repeat(2,1fr)}
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  border-radius: 2rem;
+  padding: 1rem;
+
+  &:hover{
+    box-shadow: $box-shadow;
+  }
+
+  a {
+    color: $black;
+
+    &:hover{
+      color: get-color($primary, 700);
+    }
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 2rem;
+  }
+
+  &__title {
+    padding-top: 1rem;
+    font-size: 1.8rem;
+  }
+
+  &__price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+      font-size: 2rem;
+      color: $black;
+    }
+  }
+}
+
+.product-card
+.product-card__price div,
+.product-card-price button {
+  text-align: center;
+  flex: 1;
+}
+
+

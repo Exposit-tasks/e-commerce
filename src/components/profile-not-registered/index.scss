@@ -1,0 +1,32 @@
+@import "src/styles/common";
+
+.profile-not-registered{
+  @include flex(center,center);
+  flex-direction: column;
+  width: fit-content;
+  padding: 4rem 2rem;
+  border-radius: 2rem;
+  box-shadow: $box-shadow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(50deg,rgba(171,71,188,.26) 18.67%,rgba(171,71,188,0));
+
+  h1{
+    font-size: 2.6rem;
+    color: get-color($text, 700);
+    padding: 1rem 0;
+  }
+
+  p{
+    font-size: 1.4rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .profile-button{
+    width: 100%;
+  }
+}
+

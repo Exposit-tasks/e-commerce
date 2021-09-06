@@ -1,0 +1,30 @@
+@import './src/styles/common';
+
+.order-form {
+  @extend %article-bg;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  border-radius: 2rem;
+  max-width: 90rem;
+  min-width: 36rem;
+
+  &__group{
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    min-width: 18rem;
+  }
+
+  &__label{
+    font-size: 1.4rem;
+    margin-bottom: .6rem;
+  }
+
+  &__button{
+    width: 20rem;
+    color: $black;
+  }
+}

@@ -1,0 +1,25 @@
+@import "src/styles/common";
+
+.back-link{
+  background: transparent;
+  color: get-color($primary, 700);
+  border: .2rem solid get-color($primary,700);
+  text-align: center;
+  position: relative;
+  border-radius: .6rem;
+  cursor: pointer;
+  padding: 1rem ;
+  transition: .4s;
+
+  &:hover{
+    border: .2rem solid $white;
+    background: get-color($primary,700);
+    color: $white;
+  }
+
+  &__arrow{
+    font-size: 4rem;
+    width: 6rem;
+  }
+}
+

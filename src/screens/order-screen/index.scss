@@ -1,0 +1,14 @@
+@import "src/styles/common";
+
+.order-screen{
+  @include flex(center,center);
+  @extend %absolute-center;
+  flex-direction: column;
+  min-width: 90rem;
+  h1{
+    font-size: 2.4rem;
+    padding-bottom: 2rem;
+    color: get-color($text, 700);
+  }
+
+}

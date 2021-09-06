@@ -1,0 +1,23 @@
+@import 'palette';
+
+$primary-color: #cb11ab;
+
+$colors: (
+        text: $text,
+        bg: $bg,
+        primary: $primary,
+        secondary: $secondary,
+        tertiary: $tertiary,
+        info: $info,
+        success: $success,
+        warning: $warning,
+        error: $error
+);
+
+:export {
+  @each $color, $colorMap in $colors {
+    @each $shade, $value in $colorMap {
+      #{$color + $shade}: $value;
+    }
+  }
+}

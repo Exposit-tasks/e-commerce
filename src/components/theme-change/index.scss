@@ -1,0 +1,48 @@
+@import "src/styles/common";
+
+.change-theme-container {
+
+ @include flex(center, center);
+  margin:0  1rem;
+
+  :hover{
+    cursor: pointer;
+  }
+
+  #change-theme {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+
+    &:checked + label {
+      background: get-color($bg, 400);
+    }
+
+    &:checked + label:after{
+      left: calc(100% - .4rem);
+      transform: translateX(-100%);
+      background: get-color($info, 200);
+    }
+  }
+
+  label {
+    text-indent: -9999px;
+    width: 5rem;
+    height: 2.5rem;
+    display: block;
+    border-radius: 10rem;
+    background: grey;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: .2rem;
+      left: .4rem;
+      width: 2rem;
+      height: 2rem;
+      background: get-color($error, 200);
+      border-radius: 90px;
+    }
+  }
+}

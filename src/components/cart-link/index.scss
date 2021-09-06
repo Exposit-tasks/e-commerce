@@ -1,0 +1,53 @@
+@import "./src/styles/common";
+
+.menu-cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  color: get-color($text,500);
+
+  &:hover{
+    color: $white;
+  }
+
+  &__container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .6rem;
+    margin-bottom: .2rem;
+
+    .fa-shopping-cart{
+      font-size: 2rem;
+    }
+  }
+
+  &__orders{
+    position: absolute;
+    right: .1rem;
+    top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.6rem;
+    height: 1.6rem;
+    padding: 0 .4rem;
+    font-size: 1rem;
+    text-align: center;
+    background: get-color($error,600);
+    color: $white;
+    border-radius: 9px;
+    transform: scale(1) translate(60%,-90%);
+    transform-origin: 100% 100%;
+  }
+
+  &__title{
+    font-size: 1.2rem;
+
+    &:hover{
+      color: white;
+    }
+  }
+}

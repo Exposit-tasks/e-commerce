@@ -1,0 +1,30 @@
+@import 'src/styles/common';
+
+* {
+  margin:0;
+  padding: 0;
+}
+
+html {
+  // 1rem = 10px => 10 / 16 * 100 = 62,5%
+  font-family: "Inter",sans-serif, Arial;
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  background: linear-gradient(to right,#cb11ab 0,#481173 100%) no-repeat;
+}
+
+main{
+  flex: 1 1 auto;
+  padding: 3rem 4.6rem;
+  background-color: $white;
+  border-radius: 2rem;
+  position: relative;
+}

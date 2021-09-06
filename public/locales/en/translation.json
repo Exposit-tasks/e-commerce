@@ -1,0 +1,137 @@
+{
+  "header": {
+    "ecommerce": "E-commerce"
+  },
+  "loading": "Loading",
+  "nav": {
+    "home": "Home",
+    "contact": "Contact",
+    "about": "About",
+    "list": "List",
+    "cart": "Cart",
+    "user": "user",
+    "signIn": "Sign-in"
+  },
+  "contact": {
+    "title":"contactUs",
+    "subTitle": "Global Headquarters",
+    "address": "41 University Drive • Suite 202, Newtown, PA 18940 • USA",
+    "phone": "P",
+    "fax": "F"
+  },
+  "footer": {
+    "rightsReserved": "2021 © E-commerce, All rights are reserved",
+    "about": "About",
+    "contacts": "Contacts"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "usernameError": "Username must be of length 3 or higher",
+    "registerError": "User is already exist",
+    "loginError": "Invalid email or password"
+  },
+  "profile": {
+    "notRegistered": {
+      "enterProfile":"Enter profile",
+      "letsLogin": "Login or register",
+      "loginMotivation": "After logging into your profile, you will be able to place an order"
+    },
+    "registered": {
+      "userInfo": "Your data",
+      "username": "Username",
+      "userMail": "Email",
+      "logout": "Logout",
+      "orderHistory": "order history"
+    }
+  },
+  "place-order": {
+    "confirmationOfOrder": "Подтверждение заказа",
+    "name": "Имя",
+    "address": "Адрес",
+    "payment": "Оплата",
+    "method": "Метод",
+    "orderItems": "Заказанные продукты"
+  },
+  "button": {
+    "follow": "follow",
+    "proccedToCheckout": "procced to checkout",
+    "login": "login",
+    "register": "register",
+    "back": "back",
+    "delete": "delete",
+    "order": "order"
+  },
+  "productInfo":{
+    "description":"description",
+    "notFound": "Product not found"
+  },
+  "cart-orders": {
+    "items": "Total items",
+    "price": "Total price"
+  },
+  "cartBox": {
+    "deliveryDate": "Delivery date",
+    "inStock": "in Stock",
+    "unavailable": "Unavailable",
+    "quantity": "Quantity"
+  },
+  "orderForm": {
+    "enterInfo": "Please, enter fallowing information",
+    "customerInfo":{
+      "name": "First name, second name",
+      "phone": "Phone"
+    },
+    "addressInfo": {
+      "city": "City",
+      "house": "Street, house, flat"
+    },
+    "paymentInfo": {
+      "cash": "Cash",
+      "card": "Card"
+    },
+    "deliveryDate": "Delivery date"
+  },
+  "orderHistory": {
+    "details": "Details",
+    "orderId":"ID",
+    "orderDate":"Order Date",
+    "orderDeliveryDate":"Delivery Date",
+    "orderPrice": "Price",
+    "orderMethod": "Payment Method",
+    "orderDelivered": "Delivered",
+    "orderActions": "Actions",
+    "yes": "Yes",
+    "no": "No",
+    "cash": "Cash",
+    "card": "Card"
+  },
+  "reviews":"reviews",
+  "products": {
+    "1": {
+      "title": "White dress",
+      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you."
+    },
+    "2": {
+      "title": "White dress",
+      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you."
+    },
+    "3": {
+      "title": "White dress",
+      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you."
+    },
+    "4": {
+      "title": "White dress",
+      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you."    },
+    "5": {
+      "title": "White dress",
+      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you."    },
+    "6": {
+      "title": "White dress",
+      "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you."    }
+  }
+}
+
